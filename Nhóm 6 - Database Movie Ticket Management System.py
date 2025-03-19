@@ -13,7 +13,7 @@ def remove_accents(input_str):
 try:
     conn = pyodbc.connect(
         'DRIVER={ODBC Driver 17 for SQL Server};'
-        'SERVER=TYANZUQ-2811\\SQLEXPRESS;'
+        'SERVER=KHACHONG\\SQLEXPRESS;'
         'DATABASE=QLHTBVXP;'
         'UID=sa;'
         'PWD=123456',
